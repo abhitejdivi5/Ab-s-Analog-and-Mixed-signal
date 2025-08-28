@@ -44,6 +44,7 @@ The zoomed transient waveform shows fast switching at the comparator’s decisio
 
 ![Quantizer Output 2](https://github.com/abhitejdivi5/Analog-Blocks/blob/7091a1334015cbe741c7df1afca57be6d6aa93ed/quant_out_2.png)  
 
+
 From Figure 2, the comparator can decide approximately 365 ps and precharges in about 100 ps. This speed is sufficient to perform up to 10 comparisons within a 9 ns window, which occurs while the sampling circuit is turned off. As a result, the comparator can reliably resolve the 10-bit decisions required for the SAR ADC.
 ---
 
