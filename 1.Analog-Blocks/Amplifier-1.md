@@ -25,6 +25,7 @@ Bode plot is adopted which effectively depicts the design parameters:
 
 ![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/c85a984ae3d491121e4237f9f4b5aad8ecb71f53/opamp_5t_diff_output1.png)
 
+
 Hence with 1pF load cap achived\
 Voltage gain (A<sub>v</sub>) = 71dB \
 Phase margin = 64° \
