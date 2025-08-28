@@ -3,7 +3,7 @@
 
 With Regards Abhitej Divi,
 
-This project involves designing a fully differential two-stage operational amplifier (with a first-stage differential 5T OTA and a second-stage common-source amplifier) that incorporates common-mode feedback. The design targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1pF and 2pF cap loads.
+This project involves designing a fully differential two-stage operational amplifier (with a first-stage **differential 5T OTA** and a second-stage **common-source** amplifier) that incorporates common-mode feedback. The design targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1pF and 2pF cap loads.
 
 ## 1. Design Requirement: 
 
