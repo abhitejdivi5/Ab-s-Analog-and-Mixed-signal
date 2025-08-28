@@ -4,15 +4,15 @@
 With Regards,  
 **Abhitej Divi**
 
-This project involves designing a **D Flip-Flop** to reliably store 1ns input data on the rising clock edge and maintain stability during the hold phase. The design also includes a reset feature to initialize the output.  
+This project involves designing a **D Flip-Flop** to reliably store input data on the rising clock edge and maintain stability during the hold phase. The design also includes a reset feature to initialize the output.  
 
 ---
 
 ## 1. Design Requirements  
 
 A) Technology: **TSMC 180 nm process**  
-B) Supply Voltage: V<sub>dd</sub> = 1.8 
-D) Functionality: Must latch the input \( D \) on the clock edge and hold it until the next triggering edge, with reset control  
+B) Supply Voltage: V<sub>dd</sub> = 1.8 \ 
+D) Functionality: Must latch the input (D) on the clock edge and hold it until the next triggering edge, with reset control  
 
 ---
 
@@ -29,6 +29,6 @@ D) Functionality: Must latch the input \( D \) on the clock edge and hold it unt
 - **Blue (/data):** Input data (D)  
 - **Red (/clk):** Clock signal  
 - **Red (/out):** Flip-Flop output (Q)  
-The transient simulation confirms correct **D Flip-Flop behavior**. The input data is sampled on the active clock edge and held stable at the output until the next event. The reset operation successfully initializes the output.  
+The transient simulation confirms correct **D Flip-Flop behavior**. The **2ns input data** is sampled on the 2ns period active clock edge and held stable at the output until the next event. The reset operation successfully initializes the output.  
 
 ---
