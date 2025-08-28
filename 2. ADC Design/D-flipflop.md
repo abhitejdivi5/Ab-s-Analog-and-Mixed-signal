@@ -11,8 +11,8 @@ This project involves designing a **D Flip-Flop** to reliably store input data o
 ## 1. Design Requirements  
 
 A) Technology: **TSMC 180 nm process**  
-B) Supply Voltage: V<sub>dd</sub> = 1.8 \ 
-D) Functionality: Must latch the input (D) on the clock edge and hold it until the next triggering edge, with reset control  
+B) Supply Voltage: V<sub>dd</sub> = 1.8  
+C) Functionality: Must latch the input (D) on the clock edge and hold it until the next triggering edge, with reset control  
 
 ---
 
