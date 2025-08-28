@@ -24,14 +24,13 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 Bode plot is adopted which effectively depicts the design parameters: 
 
 ![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/c85a984ae3d491121e4237f9f4b5aad8ecb71f53/opamp_5t_diff_output1.png)
-
-
 Hence with 1pF load cap achived\
 Voltage gain (A<sub>v</sub>) = 71dB \
-Phase margin = 64° \
-Gain Bandwidth Product (GBW) ≈ 227 MHz \
+Phase margin = 63° \
+Gain Bandwidth Product (GBW) ≈ 236 MHz \
 
+![opamp](https://github.com/abhitejdivi5/Analog-Blocks/blob/1eb3b59a8cbb0fa0ccb049555863249b4b938e3c/Untitledopamp_5t_diff_output2.png)
 Hence with 2pF load cap achived\
 Voltage gain (A<sub>v</sub>) = 71dB \
-Phase margin = 61° \
-Gain Bandwidth Product (GBW) ≈ 162 MHz \
+Phase margin = 65° \
+Gain Bandwidth Product (GBW) ≈ 165 MHz \
