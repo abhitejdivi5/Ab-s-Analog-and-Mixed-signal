@@ -8,7 +8,7 @@
    - Provides the input. Its voltage and current are continuously monitored.
 
 2. **Voltage Sensing Circuit (VSC)**  
-   - Scales down the solar panel’s voltage (using a resistor divider) for safe processing.
+   - Scales down the solar panel’s voltage (using a resistor divider) for safe processing from the Solar Panel, and gives it to the Voltage Sensing and the Current Sensing Circuit.
 
 3. **Current Sensing Circuit (CSC)**  
    - Measures the solar panel’s current to determine its operating condition.
