@@ -10,8 +10,8 @@ This project involves designing a **Bootstrapped Switch** for sampling and holdi
 ## 1. Design Requirements  
 
 A) Technology: **TSMC 180 nm process**  
-B) Supply Voltage V_dd = 1.8 \   
-C) Load Capacitor = 4 pF \  
+B) Supply Voltage V_dd = 1.8   
+C) Load Capacitor = 4 pF  
 D) Speed Requirement: Must support **sampling within 2 ns** and **holding for 8 ns**, enabling **100 MS/s ADC operation**  
 
 ---
