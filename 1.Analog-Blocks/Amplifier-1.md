@@ -16,7 +16,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 ## 2. Schematic diagram
 
-![Opamp schematic](opamp_5t_diff.png)
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/4e4b052f3b0c668dcb9d2615c14acd97f50d47b5/opamp_5t_diff.png)
 
 
 
