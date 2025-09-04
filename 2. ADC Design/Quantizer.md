@@ -1,4 +1,4 @@
-# Strong Arm Latch Quantizer  
+# Strong Arm Dynamic Latch Quantizer  
 
 With Regards,  
 **Abhitej Divi**
