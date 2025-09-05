@@ -1,7 +1,7 @@
 # 3. Integrated Diagnostic System Circuit
 
 The integrated diagnostic system combines **Voltage & Current Sensing Circuits, Logic Driver, XOR Gate, Memory, and Buffers** 
-into one cohesive design working for around 60Mhz.  
+into one cohesive design working for around 80Mhz.  
 - The sensing circuits monitor the SP voltage and current.  
 - The logic driver processes and classifies faults.  
 - The XOR gate flags discrepancies between open and short-circuit conditions.  
