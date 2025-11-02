@@ -13,14 +13,55 @@ C) Voltage gain (A<sub>v</sub>) = 70dB \
 D) Load Capacitor (C<sub>L</sub>) = 1pF and 2pF \
 E) Gain Bandwidth Product (GBW) > 150MHz 
 
+#### 2. Helpful Design Notes
 
-## 2. Schematic diagram
+- Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
+- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
+- After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase margin and compensation formulas given below.
+
+---
+
+To achieve better **phase margin**, ensure:
+
+\[
+G_{m2} \geq 5 \times G_{m1}
+\]
+
+Phase margin expression:
+
+\[
+\phi_m = 90^\circ - \tan^{-1}\left(\frac{\omega_{\text{loop}}}{p_2}\right) - \tan^{-1}\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
+\]
+
+Loop bandwidth approximation:
+
+\[
+\omega_{\text{loop}} = \frac{G_{m1}}{C_c}
+\]
+
+Other key relations:
+
+- \( p_2 \approx \frac{G_{m2}}{C_L} \)
+- \( G_{m1} = \frac{G_{m2}}{5} \)
+- \( A_{\text{loop}} = \frac{\beta \cdot G_{m1}}{\omega C_c} \)
+
+---
+
+### 🧮 Comparison Table: With and Without Compensation Resistor \( R_c \)
+
+| Configuration        | Dominant Pole \(p_1\)      | Non-Dom Pole \(p_2\)         | RHP Zero \(z_1\)          |
+|----------------------|----------------------------|-------------------------------|---------------------------|
+| **Without \( R_c \)**| \( \frac{1}{R_o C_c} \)     | \( \frac{G_{m2}}{C_L} \)      | \( \frac{G_{m2}}{C_c} \)   |
+| **With \( R_c \)**   | \( \frac{1}{R_o C_c} \) `   | \( \frac{G_{m2}}{C_L} \)      | \( \frac{1}{R_c C_c} \)    |
+
+
+## 3. Schematic diagram
 
 ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/4e4b052f3b0c668dcb9d2615c14acd97f50d47b5/opamp_5t_diff.png)
 
 
 
-## 3. Results
+## 4. Results
 Bode plot is adopted which effectively depicts the design parameters: 
 
 ![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/c85a984ae3d491121e4237f9f4b5aad8ecb71f53/opamp_5t_diff_output1.png)
