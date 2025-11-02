@@ -19,8 +19,6 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
 - After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase margin and compensation formulas given below.
 
----
-
 To achieve better **phase margin**, ensure:
 
 \[
