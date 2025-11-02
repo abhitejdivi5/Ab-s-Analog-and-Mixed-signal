@@ -21,35 +21,61 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 To achieve better **phase margin**, ensure:
 
-\[
-G_{m2} \geq 5 \times G_{m1}
-\]
+### Amplifier Design Guidelines
 
-Phase margin expression:
+- Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
+- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
+- After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below.
 
-\[
-\phi_m = 90^\circ - \tan^{-1}\left(\frac{\omega_{\text{loop}}}{p_2}\right) - \tan^{-1}\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
-\]
+---
 
-Loop bandwidth approximation:
+### Phase Margin Condition
 
-\[
+To achieve better **phase margin**, ensure:
+
+$$
+G_{m2} \ge 5 \times G_{m1}
+$$
+
+---
+
+### Phase Margin Expression
+
+$$
+\phi_m = 90^\circ - \tan^{-1}\left(\frac{\omega_{\text{loop}}}{p_2}\right)
+         - \tan^{-1}\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
+$$
+
+---
+
+### Loop Bandwidth Approximation
+
+$$
 \omega_{\text{loop}} = \frac{G_{m1}}{C_c}
-\]
+$$
 
-Other key relations:
+---
+
+### Other Key Relations
 
 - \( p_2 \approx \frac{G_{m2}}{C_L} \)
 - \( G_{m1} = \frac{G_{m2}}{5} \)
-- \( A_{\text{loop}} = \frac{\beta \cdot G_{m1}}{\omega C_c} \)
+- \( A_{\text{loop}} = \frac{\beta \cdot G_{m1}}{\omega \cdot C_c} \)
 
-Comparison Table: With and Without Compensation Resistor \( R_c \)
+---
 
-| Configuration        | Dominant Pole \(p_1\)      | Non-Dom Pole \(p_2\)         | RHP Zero \(z_1\)          |
-|----------------------|----------------------------|-------------------------------|---------------------------|
-| **Without \( R_c \)**| \( \frac{1}{R_o C_c} \)     | \( \frac{G_{m2}}{C_L} \)      | \( \frac{G_{m2}}{C_c} \)   |
-| **With \( R_c \)**   | \( \frac{1}{R_o C_c} \) `   | \( \frac{G_{m2}}{C_L} \)      | \( \frac{1}{R_c C_c} \)    |
+### Comparison Table: With and Without Compensation Resistor \( R_c \)
 
+| Configuration | Dominant Pole \(p_1\)              | Non‑Dom Pole \(p_2\)              | RHP Zero \(z_1\)              |
+|---------------|------------------------------------|-----------------------------------|-------------------------------|
+| Without \(R_c\) | \( \frac{1}{R_o C_c} \)           | \( \frac{G_{m2}}{C_L} \)          | \( \frac{G_{m2}}{C_c} \)      |
+| With \(R_c\)    | \( \frac{1}{R_o C_c} \)           | \( \frac{G_{m2}}{C_L} \)          | \( \frac{1}{R_c C_c} \)       |
+
+---
+
+✅ **Tip:**  
+Larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.  
+Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op‑amp.
 
 ## 3. Schematic diagram
 
