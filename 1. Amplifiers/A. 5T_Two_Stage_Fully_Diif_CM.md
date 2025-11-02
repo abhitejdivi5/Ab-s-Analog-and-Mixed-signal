@@ -13,7 +13,7 @@ C) Voltage gain (A<sub>v</sub>) = 70dB \
 D) Load Capacitor (C<sub>L</sub>) = 1pF and 2pF \
 E) Gain Bandwidth Product (GBW) > 150MHz 
 
-#### 2. Helpful Design Notes
+## 2. Helpful Design Notes
 
 - Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
 - Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
@@ -45,9 +45,7 @@ Other key relations:
 - \( G_{m1} = \frac{G_{m2}}{5} \)
 - \( A_{\text{loop}} = \frac{\beta \cdot G_{m1}}{\omega C_c} \)
 
----
-
-### 🧮 Comparison Table: With and Without Compensation Resistor \( R_c \)
+Comparison Table: With and Without Compensation Resistor \( R_c \)
 
 | Configuration        | Dominant Pole \(p_1\)      | Non-Dom Pole \(p_2\)         | RHP Zero \(z_1\)          |
 |----------------------|----------------------------|-------------------------------|---------------------------|
