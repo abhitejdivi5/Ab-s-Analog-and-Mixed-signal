@@ -3,7 +3,7 @@
 
 With Regards Abhitej Divi,
 
-This project involves designing a fully differential two-stage operational amplifier (with a first-stage differential [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md) and a second-stage **common-source** amplifier) that incorporates common-mode feedback. The design targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1pF and 2pF cap loads.
+This project involves designing a fully differential two-stage operational amplifier (with a first-stage differential [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md) and a second-stage common-source amplifier) that incorporates common-mode feedback. The design uses a Miller compensation capacitor for pole splitting and a right-half-plane (RHP) zero-canceling resistor for enhanced stability. It targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1 pF and 2 pF capacitive loads.
 
 ## 1. Design Requirement: 
 
