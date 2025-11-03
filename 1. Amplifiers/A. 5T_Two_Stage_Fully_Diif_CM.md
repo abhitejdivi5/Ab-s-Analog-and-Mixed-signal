@@ -36,12 +36,14 @@ G_{m2} \ge 5 \times G_{m1}
 $$
 
 #### Phase Margin Expression
+\[
+\phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
+          - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
+\]
 
-$$
-\phi_m = 90^\circ - \tan^{-1}\left(\frac{\omega_{\text{loop}}}{p_2}\right)
-         - \tan^{-1}\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
-$$
-From the equation, Larger Gm₂ pushes p₂ higher and the RHP zero farther, improving phase margin.  
+From the equation, larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.
+
+
 #### Loop Bandwidth Approximation
 
 $$
