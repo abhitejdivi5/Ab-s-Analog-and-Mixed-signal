@@ -64,18 +64,18 @@ $$
 
 ---
 
-### Comparison Table: With and Without Compensation Resistor \( R_c \)
+### Comparison Table: With and Without Compensation Resistor ( \( R_c \) )
 
-| Configuration | Dominant Pole \(p_1\)              | Non‑Dom Pole \(p_2\)              | RHP Zero \(z_1\)              |
-|---------------|------------------------------------|-----------------------------------|-------------------------------|
-| Without \(R_c\) | \( \frac{1}{R_o C_c} \)           | \( \frac{G_{m2}}{C_L} \)          | \( \frac{G_{m2}}{C_c} \)      |
-| With \(R_c\)    | \( \frac{1}{R_o C_c} \)           | \( \frac{G_{m2}}{C_L} \)          | \( \frac{1}{R_c C_c} \)       |
+| Configuration   | Dominant Pole (p₁)         | Non-Dom Pole (p₂)         | RHP Zero (z₁)            |
+|------------------|------------------------------|------------------------------|------------------------------|
+| Without ( \( R_c \) ) | \( \frac{1}{R_o \cdot C_c} \) | \( \frac{G_{m2}}{C_L} \)      | \( \frac{G_{m2}}{C_c} \)      |
+| With ( \( R_c \) )    | \( \frac{1}{R_o \cdot C_c} \) | \( \frac{G_{m2}}{C_L} \)      | \( \frac{1}{R_c \cdot C_c} \) |
 
 ---
 
-✅ **Tip:**  
+✅ **Tip**:  
 Larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.  
-Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op‑amp.
+Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
 
 ## 3. Schematic diagram
 
