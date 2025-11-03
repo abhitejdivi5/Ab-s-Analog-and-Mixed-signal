@@ -58,24 +58,25 @@ $$
 
 ### Other Key Relations
 
-- \( p_2 \approx \frac{G_{m2}}{C_L} \)
-- \( G_{m1} = \frac{G_{m2}}{5} \)
-- \( A_{\text{loop}} = \frac{\beta \cdot G_{m1}}{\omega \cdot C_c} \)
+- p₂ ≈ Gm₂ / CL  
+- Gm₁ = Gm₂ / 5  
+- Aloop = β × Gm₁ / (ω × Cc)
 
 ---
 
-### Comparison Table: With and Without Compensation Resistor ( \( R_c \) )
+### Comparison Table: With and Without Compensation Resistor (Rc)
 
-| Configuration   | Dominant Pole (p₁)         | Non-Dom Pole (p₂)         | RHP Zero (z₁)            |
-|------------------|------------------------------|------------------------------|------------------------------|
-| Without ( \( R_c \) ) | \( \frac{1}{R_o \cdot C_c} \) | \( \frac{G_{m2}}{C_L} \)      | \( \frac{G_{m2}}{C_c} \)      |
-| With ( \( R_c \) )    | \( \frac{1}{R_o \cdot C_c} \) | \( \frac{G_{m2}}{C_L} \)      | \( \frac{1}{R_c \cdot C_c} \) |
+| Configuration | Dominant Pole (p₁) | Non‑Dom Pole (p₂) | RHP Zero (z₁) |
+|---------------|---------------------|-------------------|----------------|
+| Without (Rc)  | 1 / (Ro × Cc) | Gm₂ / CL | Gm₂ / Cc |
+| With (Rc)     | 1 / (Ro × Cc) | Gm₂ / CL | 1 / (Rc × Cc) |
 
 ---
 
-✅ **Tip**:  
-Larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.  
-Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
+✅ **Tip:**  
+Larger Gm₂ pushes p₂ higher and the RHP zero farther, improving phase margin.  
+Using Rc helps cancel or move the RHP zero to the LHP side, stabilizing the op‑amp.
+
 
 ## 3. Schematic diagram
 
