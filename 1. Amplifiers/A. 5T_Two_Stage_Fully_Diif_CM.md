@@ -41,19 +41,16 @@ $$
 
 This gives a smaller angle to get a large phase.
 
-### Comparison Table: With and Without Compensation Resistor (Rc)
-
 <p align="center">
 
-| **Configuration** | **Dominant Pole** \( p_1 \) | **Non-Dom Pole** \( p_2 \) | **RHP Zero** \( z_1 \) |
-|-------------------|-----------------------------|-----------------------------|------------------------|
-| Without \( R_c \) | \( \dfrac{1}{R_o \times C_c} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{G_{m2}}{C_c} \) |
-| With \( R_c \)    | \( \dfrac{1}{R_o \times C_c} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{1}{R_c \times C_c} \) |
+| **Configuration** | **Dominant Pole (p₁)** | **Non-Dom Pole (p₂)** | **RHP Zero (z₁)** |
+|-------------------|------------------------|-----------------------|-------------------|
+| Without R<sub>c</sub> | 1 / (Rₒ × C<sub>c</sub>) | G<sub>m2</sub> / C<sub>L</sub> | G<sub>m2</sub> / C<sub>c</sub> |
+| With R<sub>c</sub>    | 1 / (Rₒ × C<sub>c</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>c</sub>) |
 
 </p>
 
-Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
-
+Using R<sub>c</sub> helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
 
 
 ## 4. Results
