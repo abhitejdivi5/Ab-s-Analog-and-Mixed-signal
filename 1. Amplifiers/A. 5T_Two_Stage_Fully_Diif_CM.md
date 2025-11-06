@@ -42,8 +42,8 @@ $$
 
 | **Configuration** | **Dominant Pole (p₁)** | **Non-Dominant Pole (p₂)** | **Extra Pole (p₃)** | **Zero (z₁)** |
 |-------------------|-------------------------|-----------------------------|---------------------|----------------|
-| Without R<sub>c</sub> | (G<sub>m1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | — | G<sub>m2</sub> / C<sub>c</sub> |
-| With R<sub>c</sub>    | (G<sub>m1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>L</sub>) | 1 / ((1 / G<sub>m2</sub> − R<sub>c</sub>) × C<sub>c</sub>) |
+| Without R<sub>c</sub> | (G<sub>1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | — | G<sub>m2</sub> / C<sub>c</sub> |
+| With R<sub>c</sub>    | (G<sub>1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>L</sub>) | 1 / ((1 / G<sub>m2</sub> − R<sub>c</sub>) × C<sub>c</sub>) |
 
 </p>
 
