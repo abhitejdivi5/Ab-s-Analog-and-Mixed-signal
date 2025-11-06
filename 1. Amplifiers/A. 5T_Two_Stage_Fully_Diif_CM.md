@@ -36,7 +36,7 @@ $$
 G_{m2} \ge  G_{m1}
 $$
 
-### Comparison Table: Effect of Compensation Resistor (R<sub>c</sub>)
+- Comparison Table: Effect of Compensation Resistor (R<sub>c</sub>)
 
 <p align="center">
 
@@ -51,7 +51,8 @@ Observations
 - Adding R<sub>c</sub> introduces an additional pole p₃ and shifts the zero z₁ from RHP to LHP.  
 - p₁ and p₂ remain approximately the same.  
 - The phase margin improves due to zero cancellation or its shift toward the LHP.
-- make sure R<sub>c  limited by 1/G<sub>m2<sub>
+- make sure R<sub>c</sub> limited by `1/Gm2`
+
 
 ## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
