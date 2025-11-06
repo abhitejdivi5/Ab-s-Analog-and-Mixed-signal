@@ -32,11 +32,13 @@ $$
           - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
 \
 $$
+
 To achieve better **phase margin**, ensure:
 
 $$
 G_{m2} \ge  G_{m1}
 $$
+
 This gives a smaller angle to get a large phase.
 
 ### Comparison Table: With and Without Compensation Resistor (Rc)
