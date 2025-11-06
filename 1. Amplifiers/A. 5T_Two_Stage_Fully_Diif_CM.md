@@ -36,19 +36,21 @@ $$
 G_{m2} \ge  G_{m1}
 $$
 
-This gives a **smaller angle to get a large phase.**
+### Comparison Table: Effect of Compensation Resistor \(R_c\)
 
 <p align="center">
 
-| **Configuration** | **Dominant Pole (p₁)** | **Non-Dom Pole (p₂)** | **RHP Zero (z₁)** |
-|-------------------|------------------------|-----------------------|-------------------|
-| Without R<sub>c</sub> | 1 / (Rₒ × C<sub>c</sub>) | G<sub>m2</sub> / C<sub>L</sub> | G<sub>m2</sub> / C<sub>c</sub> |
-| With R<sub>c</sub>    | 1 / (Rₒ × C<sub>c</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>c</sub>) |
+| **Configuration** | **Dominant Pole** \(p_1\) | **Non-Dominant Pole** \(p_2\) | **Extra Pole** \(p_3\) | **Zero** \(z_1\) |
+|-------------------|---------------------------|-------------------------------|-----------------------|-----------------|
+| **Without \(R_c\)** | \( \dfrac{G_{m1}^2}{C_c \cdot G_{m2}} \) | \( \dfrac{G_{m2}}{C_L} \) | – | \( \dfrac{G_{m2}}{C_c} \) |
+| **With \(R_c\)** | \( \dfrac{G_{m1}^2}{C_c \cdot G_{m2}} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{1}{R_c \cdot C_L} \) | \( \dfrac{1}{(1/G_{m2} - R_c) \cdot C_c} \) |
 
 </p>
 
-Using R<sub>c</sub> helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
-
+**Observations:**
+- Introducing \(R_c\) adds a third pole \(p_3\) and moves the zero \(z_1\) from **RHP to LHP**.  
+- \(p_1\) and \(p_2\) remain approximately the same as before.  
+- The overall **phase margin improves** because the destabilizing RHP zero is reduced or canceled.
 
 ## 4. Results
 Bode plot is adopted which effectively depicts the design parameters: 
