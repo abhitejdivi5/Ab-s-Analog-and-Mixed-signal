@@ -23,9 +23,6 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Gain (A) = (Gm₁Gm₂)/(G₁G₂)
 - Phase Margin Condition
 
-
-From the equation, larger \(G_{m2}\) pushes \(p_2\) higher and the RHP zero farther, improving phase margin.
-
 $$
 \
 \phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
@@ -33,13 +30,13 @@ $$
 \
 $$
 
-To achieve better **phase margin**, ensure:
+- To achieve better phase margin, ensure:
 
 $$
 G_{m2} \ge  G_{m1}
 $$
 
-This gives a smaller angle to get a large phase.
+This gives a **smaller angle to get a large phase.**
 
 <p align="center">
 
