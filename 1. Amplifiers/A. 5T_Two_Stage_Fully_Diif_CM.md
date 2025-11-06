@@ -36,21 +36,21 @@ $$
 G_{m2} \ge  G_{m1}
 $$
 
-### Comparison Table: Effect of Compensation Resistor \(R_c\)
+### Comparison Table: Effect of Compensation Resistor (R₍c₎)
 
 <p align="center">
 
-| **Configuration** | **Dominant Pole** \(p_1\) | **Non-Dominant Pole** \(p_2\) | **Extra Pole** \(p_3\) | **Zero** \(z_1\) |
-|-------------------|---------------------------|-------------------------------|-----------------------|-----------------|
-| **Without \(R_c\)** | \( \dfrac{G_{m1}^2}{C_c \cdot G_{m2}} \) | \( \dfrac{G_{m2}}{C_L} \) | – | \( \dfrac{G_{m2}}{C_c} \) |
-| **With \(R_c\)** | \( \dfrac{G_{m1}^2}{C_c \cdot G_{m2}} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{1}{R_c \cdot C_L} \) | \( \dfrac{1}{(1/G_{m2} - R_c) \cdot C_c} \) |
+| **Configuration** | **Dominant Pole (p₁)** | **Non-Dominant Pole (p₂)** | **Extra Pole (p₃)** | **Zero (z₁)** |
+|-------------------|------------------------|-----------------------------|---------------------|----------------|
+| Without R<sub>c</sub> | (G<sub>m1</sub>²) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | — | G<sub>m2</sub> / C<sub>c</sub> |
+| With R<sub>c</sub>    | (G<sub>m1</sub>²) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>L</sub>) | 1 / ((1 / G<sub>m2</sub> − R<sub>c</sub>) × C<sub>c</sub>) |
 
 </p>
 
-**Observations:**
-- Introducing \(R_c\) adds a third pole \(p_3\) and moves the zero \(z_1\) from **RHP to LHP**.  
-- \(p_1\) and \(p_2\) remain approximately the same as before.  
-- The overall **phase margin improves** because the destabilizing RHP zero is reduced or canceled.
+**Observations**
+- Introducing R<sub>c</sub> adds a third pole p₃ and moves the zero z₁ from RHP to LHP.  
+- p₁ and p₂ remain roughly unchanged.  
+- The overall **phase margin improves** due to zero cancellation or LHP shift.
 
 ## 4. Results
 Bode plot is adopted which effectively depicts the design parameters: 
