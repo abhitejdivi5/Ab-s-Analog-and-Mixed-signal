@@ -33,10 +33,10 @@ $$
 From the equation, larger \(G_{m2}\) pushes \(p_2\) higher and the RHP zero farther, improving phase margin.
 
 $$
-\[
+\
 \phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
           - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
-\]
+\
 $$
 
 From the equation, larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.
