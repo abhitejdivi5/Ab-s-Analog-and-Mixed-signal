@@ -13,18 +13,12 @@ C) Voltage gain (A<sub>v</sub>) = 70dB \
 D) Load Capacitor (C<sub>L</sub>) = 1pF and 2pF \
 E) Gain Bandwidth Product (GBW) > 150MHz 
 
-## 2. Helpful Design Notes
+## 2. Schematic diagram
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/4e4b052f3b0c668dcb9d2615c14acd97f50d47b5/opamp_5t_diff.png)
 
+## 3. Helpful Design Notes
 - Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
-- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
-- After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase margin and compensation formulas given below.
-
-To achieve better **phase margin**, ensure:
-
-#### Amplifier Design Guidelines
-
-- Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
-- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing.
+- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing. and change the connections as needed.
 - After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below.
 
 #### Phase Margin Condition
@@ -68,10 +62,6 @@ $$
 
 Using Rc helps cancel or move the RHP zero to the LHP side, stabilizing the op‑amp.
 
-
-## 3. Schematic diagram
-
-![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/4e4b052f3b0c668dcb9d2615c14acd97f50d47b5/opamp_5t_diff.png)
 
 
 
