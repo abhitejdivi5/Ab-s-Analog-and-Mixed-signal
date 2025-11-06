@@ -20,6 +20,9 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
 - Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing. and change the connections as needed.
 - After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below.
+- - p₂ ≈ Gm₂ / CL  
+- Gm₁ = Gm₂ / 5  
+- Aloop = β × Gm₁ / (ω × Cc)
 - Phase Margin Condition
 To achieve better **phase margin**, ensure:
 
@@ -29,26 +32,22 @@ $$
 
 From the equation, larger \(G_{m2}\) pushes \(p_2\) higher and the RHP zero farther, improving phase margin.
 
+$$
 \[
 \phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
           - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
 \]
+$$
 
 From the equation, larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.
 
-
-#### Loop Bandwidth Approximation
+- Loop Bandwidth Approximation
 
 $$
 \omega_{\text{loop}} = \frac{G_{m1}}{C_c}
 $$
 
 
-#### Other Key Relations
-
-- p₂ ≈ Gm₂ / CL  
-- Gm₁ = Gm₂ / 5  
-- Aloop = β × Gm₁ / (ω × Cc)
 
 
 #### Comparison Table: With and Without Compensation Resistor (Rc)
