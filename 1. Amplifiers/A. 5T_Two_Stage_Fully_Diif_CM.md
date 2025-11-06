@@ -22,9 +22,11 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below.
 - Phase Margin Condition
 To achieve better **phase margin**, ensure:
+
 $$
 G_{m2} \ge 5 \times G_{m1}
 $$
+
 From the equation, larger \(G_{m2}\) pushes \(p_2\) higher and the RHP zero farther, improving phase margin.
 
 \[
