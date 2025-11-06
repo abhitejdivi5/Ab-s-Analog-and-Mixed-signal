@@ -36,6 +36,7 @@ $$
 G_{m2} \ge  G_{m1}
 $$
 
+- this **makes the smaller angle to get high phase**
 - Comparison Table: Effect of Compensation Resistor (R<sub>c</sub>)
 
 <p align="center">
