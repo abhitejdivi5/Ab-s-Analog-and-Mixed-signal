@@ -39,7 +39,7 @@ $$
 \
 $$
 
-From the equation, larger \( G_{m2} \) pushes \( p_2 \) higher and the RHP zero farther, improving phase margin.
+From the equation, larger Gm₂ pushes p₂ higher and the RHP zero farther, improving phase margin.
 
 - Loop Bandwidth Approximation
 
@@ -48,18 +48,18 @@ $$
 $$
 
 
+### Comparison Table: With and Without Compensation Resistor (Rc)
 
+<p align="center">
 
-#### Comparison Table: With and Without Compensation Resistor (Rc)
+| **Configuration** | **Dominant Pole** \( p_1 \) | **Non-Dom Pole** \( p_2 \) | **RHP Zero** \( z_1 \) |
+|-------------------|-----------------------------|-----------------------------|------------------------|
+| Without \( R_c \) | \( \dfrac{1}{R_o \times C_c} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{G_{m2}}{C_c} \) |
+| With \( R_c \)    | \( \dfrac{1}{R_o \times C_c} \) | \( \dfrac{G_{m2}}{C_L} \) | \( \dfrac{1}{R_c \times C_c} \) |
 
-| Configuration | Dominant Pole (p₁) | Non‑Dom Pole (p₂) | RHP Zero (z₁) |
-|---------------|---------------------|-------------------|----------------|
-| Without (Rc)  | 1 / (Ro × Cc) | Gm₂ / CL | Gm₂ / Cc |
-| With (Rc)     | 1 / (Ro × Cc) | Gm₂ / CL | 1 / (Rc × Cc) |
+</p>
 
-
-Using Rc helps cancel or move the RHP zero to the LHP side, stabilizing the op‑amp.
-
+Using \( R_c \) helps cancel or move the RHP zero to the LHP side, stabilizing the op-amp.
 
 
 
