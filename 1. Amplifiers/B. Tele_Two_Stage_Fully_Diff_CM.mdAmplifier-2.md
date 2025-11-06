@@ -1,5 +1,5 @@
 
-# Fully Differential Two-Stage Op-Amp with Common Mode Feedback
+# Fully Differential Two-Stage Self-Zero-Canceling Compensated Op-Amp with Common Mode Feedback
 
 With Regards, Abhitej Divi,
 
