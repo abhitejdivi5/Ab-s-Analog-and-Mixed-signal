@@ -43,17 +43,18 @@ $$
 | **Configuration** | **Dominant Pole (p₁)** | **Non-Dominant Pole (p₂)** | **Extra Pole (p₃)** | **Zero (z₁)** |
 |-------------------|-------------------------|-----------------------------|---------------------|----------------|
 | Without R<sub>c</sub> | (G<sub>1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | — | G<sub>m2</sub> / C<sub>c</sub> |
-| With R<sub>c</sub>    | (G<sub>1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>L</sub>) | 1 / ((1 / G<sub>m2</sub> − R<sub>c</sub>) × C<sub>c</sub>) |
+| With R<sub>c</sub>    | (G<sub>1</sub> × G<sub>L</sub>) / (C<sub>c</sub> × G<sub>m2</sub>) | G<sub>m2</sub> / C<sub>L</sub> | 1 / (R<sub>c</sub> × C<sub>1</sub>) | 1 / ((1 / G<sub>m2</sub> − R<sub>c</sub>) × C<sub>c</sub>) |
 
 </p>
 
-**Observations**
+Observations
 - Adding R<sub>c</sub> introduces an additional pole p₃ and shifts the zero z₁ from RHP to LHP.  
 - p₁ and p₂ remain approximately the same.  
-- The **phase margin improves** due to zero cancellation or its shift toward the LHP.
+- The phase margin improves due to zero cancellation or its shift toward the LHP.
+- make sure R<sub>c<sub> limited by 1/G<sub>m2<sub>
 
 ## 4. Results
-Bode plot is adopted which effectively depicts the design parameters: 
+Bode plot is adopted, which effectively depicts the design parameters: 
 
 ![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/c85a984ae3d491121e4237f9f4b5aad8ecb71f53/opamp_5t_diff_output1.png)
 Hence with 1pF load cap achived\
