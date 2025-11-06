@@ -49,7 +49,6 @@ $$
 </p>
 
 Observations
-- Adding R<sub>c</sub> introduces an additional pole p₃ and shifts the zero z₁ from RHP to LHP.  
 - p₁ and p₂ remain approximately the same.  
 - The phase margin improves due to zero cancellation or its shift toward the LHP.
 - make sure R<sub>c</sub> limited by `1/Gm2`
