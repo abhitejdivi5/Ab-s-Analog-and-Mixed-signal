@@ -30,9 +30,12 @@ G_{m2} \ge 5 \times G_{m1}
 $$
 
 #### Phase Margin Expression
-#### Phase Margin Expression
 
-![eq2](https://latex.codecogs.com/svg.image?\phi_m%20=%2090^{\circ}%20-%20\tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)%20-%20\tan^{-1}\!\left(\frac{\beta%20\cdot%20G_{m1}}{G_{m2}}\right))
+
+$$
+\phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
+          - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
+$$
 
 From the equation, larger \(G_{m2}\) pushes \(p_2\) higher and the RHP zero farther, improving phase margin.
 
