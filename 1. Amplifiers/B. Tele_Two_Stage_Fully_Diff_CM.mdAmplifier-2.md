@@ -43,7 +43,8 @@ $$
 - In Miller compensation, a Right-Half-Plane (RHP) zero appears due to the **feed-forward path** from the input to the output, since the compensation capacitor is bidirectional.  
 - The idea is to **cancel this feed-forward path** by using a Current-Controlled Current Source (CCCS).  
 - The disadvantage of this method is that it requires an additional current source to activate the transistor used for zero cancellation.  
-- However, in a telescopic amplifier, the **cascode transistor** itself can serve as the **zero-canceling device**, eliminating the need for any **extra current source or additional power consumption**.  
+- However, in a telescopic amplifier, the **cascode transistor** itself can serve as the **zero-canceling device**, eliminating the need for any **extra current source or additional power consumption**.
+- For additional compensation techniques, refer to the [two-stage opamp](../1.%20Amplifiers/A.%20).
 
 - ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
