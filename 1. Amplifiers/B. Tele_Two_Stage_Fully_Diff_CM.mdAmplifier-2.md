@@ -3,7 +3,7 @@
 
 With Regards, Abhitej Divi,
 
-This project involves designing a fully differential two-stage operational amplifier (with a first-stage **differential telescopic amplifier** and a second-stage **common-source** amplifier) that incorporates common-mode feedback. The design targets approximately  dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1pF and 2pF cap loads.
+This project involves designing a fully differential two-stage operational amplifier (with a first-stage **differential telescopic amplifier** and a second-stage **common-source** amplifier) that incorporates common-mode feedback. The design targets approximately  dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1pF and 2pF cap loads. The design uses an Ahuja compensation technique, implemented with a cascoded transistor.
 
 ## 1. Design Requirement: 
 
