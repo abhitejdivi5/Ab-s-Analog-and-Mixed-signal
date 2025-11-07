@@ -22,8 +22,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below. 
 - Gain (A) = (Gm₁Gm₂)/(G₁G₂)
 - Common-Mode Input Range and Output Swing (Based on Schematic)
-
-#### Input Common-Mode Voltage Limits
+- 
 $$
 V_{icm(max)} = V_{DD} - V_{SG11} + V_{T6}
 $$
@@ -32,7 +31,6 @@ $$
 V_{icm(min)} = V_{SS} + V_{DS9(sat)} + V_{GS6}
 $$
 
-#### Output Swing Limits
 $$
 V_{out(max)} = V_{DD} - V_{SD1(sat)}
 $$
