@@ -32,11 +32,11 @@ V_{icm(min)} = V_{Ov9(sat)} + V_{GS6}
 $$
 
 $$
-V_{out(max)} = V_{DD} - V_{SD1(sat)}
+V_{out(max)} = V_{DD} - V_{Ov4(sat)}
 $$
 
 $$
-V_{out(min)} = V_{SS} + V_{DS15(sat)}
+V_{out(min)} = V_{DS15(sat)}
 $$
 
 - Phase Margin Condition
