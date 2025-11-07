@@ -16,7 +16,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 ## 2. Schematic diagram
 
-![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/tele_ahu.png)
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/tele_ahuza.png)
 
 
 
