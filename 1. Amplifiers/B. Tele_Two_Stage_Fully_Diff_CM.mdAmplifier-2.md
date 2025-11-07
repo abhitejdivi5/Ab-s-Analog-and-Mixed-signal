@@ -25,19 +25,19 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - - Common-Mode Input Range and Output Swing (Based on Schematic)
 
 $$
-V_{icm(max)} = Vb4 - V_{SG} + V_{T6}
+V_{icm(max)} = V_{b56} - V_{SG34} + V_{T29}
 $$
 
 $$
-V_{icm(min)} = V_{Ov9(sat)} + V_{GS6}
+V_{icm(min)} = V_{Ov25(sat)} + V_{GS29}
 $$
 
 $$
-V_{out(max)} = V_{DD} - V_{Ov4(sat)}
+V_{out(max)} = V_{DD} - V_{Ov30(sat)}
 $$
 
 $$
-V_{out(min)} = V_{Ov9(sat)}
+V_{out(min)} = V_{Ov31(sat)}
 $$
 #### Compensation
 - In Miller compensation, a Right-Half-Plane (RHP) zero appears due to the **feed-forward path** from the input to the output, since the compensation capacitor is bidirectional.  
