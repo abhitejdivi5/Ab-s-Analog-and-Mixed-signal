@@ -28,7 +28,7 @@ V_{icm(max)} = V_{DD} - V_{SG1} + V_{T6}
 $$
 
 $$
-V_{icm(min)} = V_{SS} + V_{DS9(sat)} + V_{GS6}
+V_{icm(min)} = V_{Ov9(sat)} + V_{GS6}
 $$
 
 $$
