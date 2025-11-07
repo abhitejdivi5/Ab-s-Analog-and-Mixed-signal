@@ -23,24 +23,23 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Gain (A) = (Gm₁Gm₂)/(G₁G₂)
 - Common-Mode Input Range and Output Swing (Based on Schematic)
 
-Input Common-Mode Voltage Limits
-\[
+#### Input Common-Mode Voltage Limits
+$$
 V_{icm(max)} = V_{DD} - V_{SG11} + V_{T6}
-\]
+$$
 
-\[
+$$
 V_{icm(min)} = V_{SS} + V_{DS9(sat)} + V_{GS6}
-\]
+$$
 
-Output Swing Limits
-
-\[
+#### Output Swing Limits
+$$
 V_{out(max)} = V_{DD} - V_{SD1(sat)}
-\]
+$$
 
-\[
+$$
 V_{out(min)} = V_{SS} + V_{DS15(sat)}
-\]
+$$
 
 - Phase Margin Condition
 
