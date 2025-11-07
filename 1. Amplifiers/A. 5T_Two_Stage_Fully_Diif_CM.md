@@ -24,7 +24,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Common-Mode Input Range and Output Swing (Based on Schematic)
 
 $$
-V_{icm(max)} = V_{DD} - V_{SG11} + V_{T6}
+V_{icm(max)} = V_{DD} - V_{SG1}/<sub>I0/2 + V_{T6}
 $$
 
 $$
