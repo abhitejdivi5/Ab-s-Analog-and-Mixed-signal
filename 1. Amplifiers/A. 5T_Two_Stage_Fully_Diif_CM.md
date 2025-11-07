@@ -43,8 +43,8 @@ $$
 
 $$
 \
-\phi_m = 90^\circ - \tan^{-1}\!\left(\frac{\omega_{\text{loop}}}{p_2}\right)
-          - \tan^{-1}\!\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
+\phi_m = 90^\circ - \tan^{-1}\left(\frac{\omega_{\text{loop}}}{p_2}\right)
+          - \tan^{-1}\left(\frac{\beta \cdot G_{m1}}{G_{m2}}\right)
 \
 $$
 
