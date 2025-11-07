@@ -36,7 +36,7 @@ V_{out(max)} = V_{DD} - V_{Ov4(sat)}
 $$
 
 $$
-V_{out(min)} = V_{DS15(sat)}
+V_{out(min)} = V_{Ov9(sat)}
 $$
 
 - Phase Margin Condition
