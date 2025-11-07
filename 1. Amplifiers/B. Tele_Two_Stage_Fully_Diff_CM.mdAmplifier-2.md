@@ -22,6 +22,23 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ## 3. Helpful notes
 - Design the [two-stage opamp](../1.%20Amplifiers/A.%20).
 - We can use the same compensation methods as those applied in a two-stage op-amp, or the following techniques.
+- - Common-Mode Input Range and Output Swing (Based on Schematic)
+
+$$
+V_{icm(max)} = Vb4 - V_{SG} + V_{T6}
+$$
+
+$$
+V_{icm(min)} = V_{Ov9(sat)} + V_{GS6}
+$$
+
+$$
+V_{out(max)} = V_{DD} - V_{Ov4(sat)}
+$$
+
+$$
+V_{out(min)} = V_{Ov9(sat)}
+$$
 #### Compensation
 - In Miller compensation, a Right-Half-Plane (RHP) zero appears due to the **feed-forward path** from the input to the output, since the compensation capacitor is bidirectional.  
 - The idea is to **cancel this feed-forward path** by using a Current-Controlled Current Source (CCCS).  
