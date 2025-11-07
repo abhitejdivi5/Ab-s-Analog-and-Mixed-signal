@@ -19,8 +19,14 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/tele_ahuza.png)
 
 
+## 3. Helpful notes
+- Design the [two-stage opamp](../1.%20Amplifiers/A.%20).
+- We can use the same compensation methods as those applied in a two-stage op-amp, or the following techniques.
+- ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
-## 3. Results
+
+
+## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
 
 ![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/tele_output_1.png)
