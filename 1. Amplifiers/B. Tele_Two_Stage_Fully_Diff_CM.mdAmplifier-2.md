@@ -22,7 +22,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ## 3. Helpful notes
 - Design the [two-stage opamp](../1.%20Amplifiers/A.%20).
 - We can use the same compensation methods as those applied in a two-stage op-amp, or the following techniques.
-- - Common-Mode Input Range and Output Swing (Based on Schematic)
+- Common-Mode Input Range and Output Swing (Based on Schematic)
 
 $$
 V_{icm(max)} = V_{b56} - V_{SG34} + V_{T29}
