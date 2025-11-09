@@ -48,37 +48,13 @@ $$
 
 - ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
-### Ahuja Compensation — Pole and Zero Analysis
-
-#### Without Ahuja Compensation
-
 - **Dominant Pole:**  
   $p_1 \approx \dfrac{G_{m1}}{C_c \times G_{m2} / G_{L}}$
 
-- **Non-Dominant Pole:**  
-  $p_2 \approx \dfrac{G_{m2}}{C_L}$
-
-- **Zero:**  
-  *No zero (pure Miller compensation)*
-
----
-
-#### With Ahuja Compensation
-
-- **Dominant Pole:**  
-  $p_1 \approx \dfrac{G_{m1}}{C_c \times G_{m2} / G_{L}}$  *(approximately unchanged)*
-
 - **New Non-Dominant Pole:**  
-  $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_1 \times (C_1 + C_c)}$  
-  or approximately  
-  $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_1^2}$  
-  *(gives higher phase margin)*
+  $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_1^2}$
 
-- **Extra Pole:**  
-  $p_3 \to \infty$  *(ignored at low frequency)*
-
----
-
+- The new $p_{2,new}$ is higher than the original $p_2$ (without compensation), which results in an improved phase margin.
 
 
 
