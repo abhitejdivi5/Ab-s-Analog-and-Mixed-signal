@@ -28,7 +28,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
   Therefore,  
   ωu = gm1 / CL  
 
-- Use the **diode-connected circuit** and fix the current in the circuit.
+- Use the **diode-connected circuit** and fix the current and widths in the circuit.
 - Mismatch Relation for the current mirror is given by:
 
 ΔIout / Iout = ( ΔVT / ((VGS − VT)/2) ) + ( ΔK′ / K′ ) + ( Δ(W/L) / (W/L) )
