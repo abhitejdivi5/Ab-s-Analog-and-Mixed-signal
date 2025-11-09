@@ -24,7 +24,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ## 3. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
 
-![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/tele_output_1.png)
+![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/pmos5t.png)
 Henc,e with 1pF load cap achieved \
 Voltage gain (A<sub>v</sub>) = 99dB \
 Phase margin = 63° \
