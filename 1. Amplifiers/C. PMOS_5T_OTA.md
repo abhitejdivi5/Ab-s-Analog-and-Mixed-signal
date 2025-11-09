@@ -21,7 +21,9 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 ## 3. Helpful notes
 
-- Calculate the required \( g_m \) from the unity-gain bandwidth requirement:
+### 3. Helpful Notes
+
+- Calculate the required \( g_m \) from the unity-gain bandwidth requirement:  
   \[
   \omega_u = \omega_p \times A_v
   \]
@@ -58,6 +60,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 - Apply large **capacitor = 1 MF** and **inductor = 1 MH**.  
 - Apply an **AC magnitude = 1 V** and **phase = 180°** at the **Vs node**.  
 - Plot the **magnitude** and **phase** of the loop gain.
+
 
 ## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
