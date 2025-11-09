@@ -17,7 +17,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 ## 2. Schematic diagram
 
-![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/pmos5t.png)
+![Opamp schematic](pmos5t.png)
 
 
 
