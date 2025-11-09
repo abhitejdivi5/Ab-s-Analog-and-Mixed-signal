@@ -48,11 +48,11 @@ $$
 
 - ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
-- **Dominant Pole:**  
+- Dominant Pole:
   $p_1 \approx \dfrac{G_{1}}{C_c \times G_{m2} / G_{L}}$
 
-- **New Non-Dominant Pole:**  
-  $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_1^2}$
+- New Non-Dominant Pole: 
+  $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_L \times C_1}$
 
 - The new $p_{2,new}$ is higher than the original $p_2$ (without compensation), which results in an improved phase margin.
 
