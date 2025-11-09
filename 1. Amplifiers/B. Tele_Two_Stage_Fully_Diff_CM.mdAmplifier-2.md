@@ -46,7 +46,7 @@ $$
 - However, in a telescopic amplifier, the **cascode transistor** itself can serve as the **zero-canceling device**, eliminating the need for any **extra current source or additional power consumption**.
 - For additional compensation techniques, refer to the [two-stage opamp](../1.%20Amplifiers/A.%20).
 
-- ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
+  ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
 - Dominant Pole:
   $p_1 \approx \dfrac{G_{1}}{C_c \times G_{m2} / G_{L}}$
