@@ -21,25 +21,24 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 ## 3. Helpful notes
 
+- Calculate the required \( g_m \) from the unity-gain bandwidth requirement:
+  \[
+  \omega_u = \omega_p \times A_v
+  \]
+  where  
+  \[
+  \omega_p = \frac{1}{r_{out} \times C_L}, \quad A_v = g_{m1} \times r_{out}
+  \]
+  Therefore,  
+  \[
+  \omega_u = \frac{g_{m1}}{C_L}
+  \]
 
-Calculate the required \( g_m \) from the unity-gain bandwidth requirement.  
-\[
-\omega_u = \omega_p \times A_v
-\]
-where the first pole is  
-\[
-\omega_p = \frac{1}{r_{out} \times C_L}, \quad A_v = g_{m1} \times r_{out}
-\]
-Therefore,
-\[
-\omega_u = \frac{g_{m1}}{C_L}
-\]
-
-Use the diode-connected circuit and fix the current in the circuit.
+- Use the **diode-connected circuit** and fix the current in the circuit.
 
 ---
 
-#### Mismatch Relation
+#### • Mismatch Relation
 \[
 \frac{\Delta I_{out}}{I_{out}} =
 \frac{\Delta V_T}{(V_{GS} - V_T)/2}
@@ -47,21 +46,18 @@ Use the diode-connected circuit and fix the current in the circuit.
 + \frac{\Delta (W/L)}{(W/L)}
 \]
 
-A larger \((V_{GS} - V_T)\) (overdrive) reduces mismatch.
-
-Make sure to have large (above **200 mV**) overdrive for the **tail transistors**,  
-and less overdrive (above **100 mV**) for the **rest of the transistors**,  
-to achieve lower mismatch.
+- A larger \( (V_{GS} - V_T) \) (overdrive) reduces mismatch.  
+- Use **large overdrive (> 200 mV)** for the **tail transistors**.  
+- Use **smaller overdrive (> 100 mV)** for the **remaining transistors** to achieve lower mismatch.
 
 ---
 
-For **stability analysis**, use the depicted circuit diagram.  
-Break the loop at the **gate of M3** and apply a large capacitor and inductor,  
-say **1 MF** and **1 MH** respectively.  
-Apply an AC magnitude of **1 V** and **phase 180°** at the **Vs node**, as shown in the figure.  
-Plot the magnitude and the phase of the loop gain.
-
-
+#### • Stability Analysis
+- Use the depicted circuit diagram.  
+- Break the loop at the **gate of M3**.  
+- Apply large **capacitor = 1 MF** and **inductor = 1 MH**.  
+- Apply an **AC magnitude = 1 V** and **phase = 180°** at the **Vs node**.  
+- Plot the **magnitude** and **phase** of the loop gain.
 
 ## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
