@@ -41,14 +41,8 @@ Use the depicted circuit diagram and break the loop at the gate of M3. Apply a l
 ## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
 
-![Opamp results](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/pmos5t.png)
+![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/bg.png)
 Henc,e with 1pF load cap achieved \
-Voltage gain (A<sub>v</sub>) = 99dB \
-Phase margin = 63° \
-Gain Bandwidth Product (GBW) ≈ 243 MHz \
+Voltage gain (A<sub>v</sub>) = 27 dB \
+Gain Bandwidth Product (GBW) ≈ 417 MHz \
 
-![opamp](https://github.com/abhitejdivi5/Analog-Blocks/blob/ee27edd41867a941b4efba2cec5413a38bd26f74/tele_output_2.png)
-Hence, with a 2pF load cap achived\
-Voltage gain (A<sub>v</sub>) = 99dB \
-Phase margin = 60° \
-Gain Bandwidth Product (GBW) ≈ 173 MHz \
