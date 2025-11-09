@@ -20,47 +20,23 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ![PMOS 5T Amplifier](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/pmos5t.png)
 
 ## 3. Helpful notes
+- Calculate the required gm from the unity-gain bandwidth requirement:
 
-### 3. Helpful Notes
-
-- Calculate the required \( g_m \) from the unity-gain bandwidth requirement:  
-  \[
-  \omega_u = \omega_p \times A_v
-  \]
+  ωu = ωp × Av  
   where  
-  \[
-  \omega_p = \frac{1}{r_{out} \times C_L}, \quad A_v = g_{m1} \times r_{out}
-  \]
+  ωp = 1 / (rout × CL) ,   Av = gm1 × rout  
   Therefore,  
-  \[
-  \omega_u = \frac{g_{m1}}{C_L}
-  \]
+  ωu = gm1 / CL  
 
 - Use the **diode-connected circuit** and fix the current in the circuit.
+- Mismatch Relation for the current mirror is given by:
 
----
+ΔIout / Iout = ( ΔVT / ((VGS − VT)/2) ) + ( ΔK′ / K′ ) + ( Δ(W/L) / (W/L) )
 
-#### • Mismatch Relation
-\[
-\frac{\Delta I_{out}}{I_{out}} =
-\frac{\Delta V_T}{(V_{GS} - V_T)/2}
-+ \frac{\Delta K'}{K'}
-+ \frac{\Delta (W/L)}{(W/L)}
-\]
-
-- A larger \( (V_{GS} - V_T) \) (overdrive) reduces mismatch.  
-- Use **large overdrive (> 200 mV)** for the **tail transistors**.  
-- Use **smaller overdrive (> 100 mV)** for the **remaining transistors** to achieve lower mismatch.
-
----
-
-#### • Stability Analysis
-- Use the depicted circuit diagram.  
-- Break the loop at the **gate of M3**.  
-- Apply large **capacitor = 1 MF** and **inductor = 1 MH**.  
-- Apply an **AC magnitude = 1 V** and **phase = 180°** at the **Vs node**.  
-- Plot the **magnitude** and **phase** of the loop gain.
-
+- From the equation, a larger (VGS − VT) (overdrive) reduces mismatch. Use **large overdrive (> 200 mV)** for the tail transistors. Use smaller overdrive (> 100 mV) for the remaining transistors to achieve lower mismatch.
+- Stability Analysis:
+<img src="https://github.com/abhitejdivi5/Analog-Blocks/blob/main/gm.png" width="400">
+Use the depicted circuit diagram and break the loop at the gate of M3. Apply a large capacitor of 1 MF and an inductor of 1 MH, then apply an AC magnitude of 1 V with a phase of 180° at the Vs node, and plot the magnitude and phase of the loop gain.
 
 ## 4. Results
 Bode plot is adopted, which effectively depicts the design parameters: 
