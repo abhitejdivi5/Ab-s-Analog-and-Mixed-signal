@@ -49,7 +49,7 @@ $$
 - ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/ahuza_block.png)
 
 - **Dominant Pole:**  
-  $p_1 \approx \dfrac{G_{m1}}{C_c \times G_{m2} / G_{L}}$
+  $p_1 \approx \dfrac{G_{1}}{C_c \times G_{m2} / G_{L}}$
 
 - **New Non-Dominant Pole:**  
   $p_{2,new} \approx \dfrac{G_{m2} \times C_c}{C_1^2}$
