@@ -28,10 +28,10 @@ Hence, by adding scaled CTAT and PTAT we obtained a band gap reference of ≈ 1.
 ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/opamp_bgr_out.png)
 
 
-#### C. Supply variations on V<sub>REF</sub>
+#### B. Supply variations on V<sub>REF</sub>
 When evaluated with supply variation, we got 53mV deviation over 0.6V.
 
-![4 Supply variations on VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/a01c0e655bb6987425071c4c4af74f98c9ebc3de/bandgap_result_3.png)
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/opamp_bgr_out2.png)
 
 Furthermore, if supply voltage and temperature variations is to be reduced, we need to use complex cascode mirror. Yet again using a cascode structure demands for higher supply voltage so trade-off is to be done as your requirement.
 
