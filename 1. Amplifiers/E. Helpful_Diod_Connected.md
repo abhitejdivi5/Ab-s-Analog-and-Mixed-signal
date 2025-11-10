@@ -33,7 +33,7 @@ In future designs, use the same transistor parameters (**W**, **L**, **Ad**, **A
 ## 4. Results
 The NMOS parameters VGS, VDSAT, gm, and gm/gds are plotted versus ID on separate graphs for various transistor widths, as shown in the figure, to determine the appropriate width for the NMOS device.
 
-![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoschout.png)
+![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoschoout.png)
 
 The PMOS parameters VGS, VDSAT, gm, and gm/gds are plotted versus ID on separate graphs for various transistor widths, as shown in the figure, to determine the appropriate width for the NMOS device.
 
