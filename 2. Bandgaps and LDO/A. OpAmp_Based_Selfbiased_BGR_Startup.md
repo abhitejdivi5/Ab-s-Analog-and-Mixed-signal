@@ -14,9 +14,8 @@ BGR is a major building block of any IC as it is very essential for a circuit to
 ## 1. Schematic Diagram:
 The figure below depicts the schematic diagram for band gap reference using current mirror circuit as current source.
 
-<p align="center">
-<img width="900" alt="Schematic Diagram" src="https://github.com/abhitejdivi5/Analog-Blocks/blob/3bbcaa0970d077aff918599a54a19d8e89595596/opamp_bgr.png">
-</p>
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/opamp_bgr.png)
+
 
 
 
@@ -26,12 +25,8 @@ The figure below depicts the schematic diagram for band gap reference using curr
 #### A. Temperature variation of CTAT, PTAT and V<sub>REF</sub>
 Hence, by adding scaled CTAT and PTAT we obtained a band gap reference of ≈ 1.16V
 
-![3 Temperature variation of PTAT,CTAT and VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/3bbcaa0970d077aff918599a54a19d8e89595596/opamp_bgr_out.png)
+![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/opamp_bgr_out.png)
 
-#### B. Bell curve of V<sub>REF</sub>
-When I zoomed in the graph of V<sub>REF</sub> , it looked like a bell-shaped curve with maximum variation 1.9mV. And we are getting such bell-curved because our CTAT and PTAT are not exact staright lines.
-
-![2 Bell_curve_of_VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/3bbcaa0970d077aff918599a54a19d8e89595596/bamdgap_result_2.png)
 
 #### C. Supply variations on V<sub>REF</sub>
 When evaluated with supply variation, we got 53mV deviation over 0.6V.
