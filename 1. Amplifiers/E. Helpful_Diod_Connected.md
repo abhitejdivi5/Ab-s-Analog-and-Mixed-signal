@@ -11,7 +11,7 @@ This design involves checking the MOS characteristics using a diode-connected tr
 ## 1. Schematic diagram
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoschc.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoscha.png" width="400"/></td>
     <td><img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/pmosch.png" width="400"/></td>
   </tr>
 </table>
