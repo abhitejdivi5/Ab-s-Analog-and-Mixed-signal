@@ -10,9 +10,9 @@ This project involves the design of a five-transistor differential amplifier. Th
 
 A) Technology: TSMC 180nm process \
 B) Supply Voltage (V<sub>dd</sub>) = 1.8 V \
-C) Voltage gain (A<sub>v</sub>) = 95dB \
-D) Load Capacitor (C<sub>L</sub>) = 1pF and 2pF \
-E) Gain Bandwidth Product (GBW) > 150MHz
+C) Voltage gain (A<sub>v</sub>) = 27dB \
+D) Load Capacitor (C<sub>L</sub>) = 1pF \
+E) Gain Bandwidth Product (GBW) > 400MHz
 
 
 ## 2. Schematic diagram
