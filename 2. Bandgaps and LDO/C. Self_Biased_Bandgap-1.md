@@ -1,5 +1,5 @@
 
-# 1.16V Band gap reference
+# Self_Biased Band gap reference
 
 With Regards Abhitej Divi ;)
 
