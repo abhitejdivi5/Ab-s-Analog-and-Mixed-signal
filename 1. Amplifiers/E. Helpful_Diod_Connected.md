@@ -17,29 +17,25 @@ This design involves checking the MOS characteristics using a diode-connected tr
 </table>
 
 ## 2. Helpful notes and test bench
-- Calculate the required gm from the unity-gain bandwidth requirement:
+- **I** is the bias current per unit width. Sweep **I** in logarithmic steps from a small value (e.g., 0.1 µA/µm) up to 1 mA/µm and simulate the operating point.
 
-  ωu = ωp × Av  
-  where  
-  ωp = 1 / (rout × CL) ,   Av = gm1 × rout  
-  Therefore,  
-  ωu = gm1 / CL  
+Plot the following parameters versus **I** for various transistor widths.  
+*(The testbench used for this measurement is shown in the reference figure.)*
 
-- Use the **diode-connected circuit** and fix the current and widths in the circuit.
-- Mismatch Relation for the current mirror is given by:
+- **VGS** – Gate-to-source voltage. Used to identify a “reasonable” operating region.  
+- **VDSAT** – Saturation voltage required across the device. Similar to the above, used to determine a valid operating region.  
+- **gm** – Transconductance per unit transistor (1 µm / L). Helps in determining the required device sizing for a given gm.  
+- **gm/gds** – Intrinsic gain. Used to determine the bias current density or device length required to achieve a desired DC gain.
 
-ΔIout / Iout = ( ΔVT / ((VGS − VT)/2) ) + ( ΔK′ / K′ ) + ( Δ(W/L) / (W/L) )
+In future designs, use the same transistor parameters (**W**, **L**, **Ad**, **As**, **Pd**, **Ps**) but adjust the **multiplier (m)** as needed to meet the required specifications.
 
-- From the equation, a larger (VGS − VT) (overdrive) reduces mismatch. Use **large overdrive (> 200 mV)** for the tail transistors. Use smaller overdrive (> 100 mV) for the remaining transistors to achieve lower mismatch.
-- Stability Analysis:
-<img src="https://github.com/abhitejdivi5/Analog-Blocks/blob/main/gm.png" width="400">
-Use the depicted circuit diagram and break the loop at the gate of M3. Apply a large capacitor of 1 MF and an inductor of 1 MH, then apply an AC magnitude of 1 V with a phase of 180° at the Vs node, and plot the magnitude and phase of the loop gain.
-
+![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoschtest.png)
 ## 4. Results
-Bode plot is adopted, which effectively depicts the design parameters: 
+The NMOS parameters VGS, VDSAT, gm, and gm/gds are plotted versus ID on separate graphs for various transistor widths, as shown in the figure, to determine the appropriate width for the NMOS device.
 
-![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/bg.png)
-Henc,e with 1pF load cap achieved \
-Voltage gain (A<sub>v</sub>) = 27 dB \
-Gain Bandwidth Product (GBW) ≈ 417 MHz \
+![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmoschout.png)
+
+The PMOS parameters VGS, VDSAT, gm, and gm/gds are plotted versus ID on separate graphs for various transistor widths, as shown in the figure, to determine the appropriate width for the NMOS device.
+
+![results](https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/pmoschout.png)
 
