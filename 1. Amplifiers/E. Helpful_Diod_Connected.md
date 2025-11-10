@@ -9,8 +9,13 @@ This design involves checking the MOS characteristics using a diode-connected tr
 
 
 ## 1. Schematic diagram
-<img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmosch.png" width="400"/>
-<img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/pmosch.png" width="400"/>
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/nmosch.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/abhitejdivi5/Analog-Blocks/main/pmosch.png" width="400"/></td>
+  </tr>
+</table>
+
 ## 2. Helpful notes and test bench
 - Calculate the required gm from the unity-gain bandwidth requirement:
 
