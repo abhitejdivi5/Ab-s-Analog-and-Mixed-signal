@@ -1,4 +1,4 @@
-# 10-bit SAR ADC  
+# 10-bit Fully Differential SAR ADC  
 
 With Regards,  
 **Abhitej Divi**  
