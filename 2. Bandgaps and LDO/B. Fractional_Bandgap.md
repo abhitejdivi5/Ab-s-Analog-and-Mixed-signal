@@ -13,10 +13,10 @@ BGR is a major building block of any IC as it is very essential for a circuit to
 
 ## 1. Schematic Diagram:
 The figure below depicts the schematic diagram for band gap reference using current mirror circuit as current source.
-![2 Bell_curve_of_VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/3bbcaa0970d077aff918599a54a19d8e89595596/Fractional%20Bandgap.png)
+![2 Bell_curve_of_VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/Fractional%20BandGap.png)
 
 ## 2. Result:
 #### A. Temperature variation of CTAT, PTAT and V<sub>REF</sub>
 Hence, by adding scaled CTAT and PTAT we obtained a band gap reference of ≈ 1.16V
 
-![2 Bell_curve_of_VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/3bbcaa0970d077aff918599a54a19d8e89595596/fractionalbandgapout.png)
+![2 Bell_curve_of_VREF](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/fractional_bandgap_out.png)
