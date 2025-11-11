@@ -2,14 +2,7 @@
 # 1.6V LDO reference
 
 With Regards Abhitej Divi ;)
-
-Band gap reference is a circuit which will give constant output voltage with respect to temperature and supply variations.  
-We can make a constant voltage reference, cancelling the effect of temperature by combining CTAT and PTAT circuits.
-
-BGR is a major building block of any IC as it is very essential for a circuit to be immune to effect of temperature change. BGR are commonly used in LDO, Buck-boost converter, Regulator, ADC, DAC etc. Although there are other parameters like process variation which might effect 
-
-
-
+A Low Dropout Regulator (LDO) is a linear voltage regulator that provides a stable output voltage even when the input voltage is only slightly higher than the desired output voltage. It is widely used in analog, mixed-signal, and digital ICs where clean and noise-free power is critical. This design uses a 1.2 V bandgap reference (BGR) and scales it up to 1.6 V using the LDO.
 
 ## 1. Schematic Diagram:
 The figure below depicts the schematic diagram for band gap reference using current mirror circuit as current source.
