@@ -26,9 +26,10 @@ After sampling the input onto the capacitor, a small parasitic capacitance exist
 This capacitance couples a portion of the clock signal to the output, slightly altering the stored voltage.  
 This effect, known as **clock feedthrough**, introduces an error (typically in the millivolt range) that can significantly impact ADC accuracy.  
 
-\[
+$$
 \Delta V_{error} = \frac{C_{p2}}{C_{p2} + C} \times V_{clock}
-\]
+$$
+
 To minimize this error, a **dummy transistor** identical to the sampling switch is added.  
 The dummy transistor cancels the feedthrough effect caused by the sampling transistor’s gate-to-drain capacitance (C<sub>gd</sub>), improving sampling accuracy.  
 
