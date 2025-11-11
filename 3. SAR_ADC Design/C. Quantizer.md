@@ -19,7 +19,7 @@ E) Functionality: Generate a stable digital output that indicates whether Vₚ >
 
 ## 2. Schematic Diagram  
 
-![Quantizer Schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/7091a1334015cbe741c7df1afca57be6d6aa93ed/strng.png)
+![Quantizer Schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/strng.png)
 
 ---
 
