@@ -12,19 +12,30 @@ Helpful Analog References
 
 Helpful Mixed Signal Reference:
 - [Razavi’s  Gate-Botstrapped Switch](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_1_2021.pdf)
+
 - [Razavi's Strongarm Latch](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9265306)
 - Flash:
   [Razavi's Flash ADC](https://ieeexplore.ieee.org/document/8016484)
 - SARADC
   [A 10-bit 50-MS/s SAR ADC With a Monotonic Capacitor Switching Procedure](https://ieeexplore.ieee.org/document/5437496)
+  
+
   [A 0.92mW 10-bit 50-MS/s SAR ADC in 0.13μm CMOS process](https://ieeexplore.ieee.org/document/5205343)
+
   [A 150 MS/s 133 μW 7 bit ADC in 90 nm Digital CMOS](https://ieeexplore.ieee.org/document/4684631)
+
   [Single-channel, 1.25-GS/s, 6-bit, loop-unrolled asynchronous SAR-ADC in 40nm-CMOS](https://ieeexplore.ieee.org/document/5617411)
+
   [A 10 bit 320 MS/s Low-Cost SAR ADC for IEEE 802.11ac Applications in 20 nm CMOS](https://ieeexplore.ieee.org/document/7243367)
+
   ["Split ADC" architecture for deterministic digital background calibration of a 16-bit 1-MS/s ADC](https://ieeexplore.ieee.org/abstract/document/1546220)
 -Continuous Time Pipeline ADC
   [Fundamentals of Continuous-Time ADCs: Part One: The Continuous-Time Pipeline](https://ieeexplore-ieee-org.pvamu.idm.oclc.org/document/10645512)
+  
   [Fundamentals of Continuous-Time ADCs: Part Two: Continuous-Time Delta–Sigma Converters](https://ieeexplore-ieee-org.pvamu.idm.oclc.org/document/10752800)
+
   [A 65-nm CMOS Continuous-Time Pipeline ADC Achieving 70-dB SNDR in 100-MHz Bandwidth](https://ieeexplore-ieee-org.pvamu.idm.oclc.org/document/9399157)
+
   [Continuous-Time Pipelined ADC: A Breed of Continuous-Time ADCs for Wideband Data Conversion](https://ieeexplore-ieee-org.pvamu.idm.oclc.org/document/10246305)
+
   [Asynchronous Continuous Time Pipeline Analog-to-Digital Converter](https://ieeexplore-ieee-org.pvamu.idm.oclc.org/document/10548438)
