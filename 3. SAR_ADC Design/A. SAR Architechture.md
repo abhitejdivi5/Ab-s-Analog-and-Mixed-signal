@@ -17,7 +17,9 @@ This project involves designing a **10-bit Successive Approximation Register (SA
 
 - If the comparator output is **‘1’**, the positive capacitor is switched to ground; otherwise, the negative capacitor is switched to ground. This method is known as **monotonic switching**.
 
-- After storing, resetting, and switching, the comparator becomes ready for the next comparison. The process repeats for all remaining bits (typically 9 more for a 10-bit ADC). - Once all bits are resolved, the input sampling phase begins again for the next conversion cycle.
+- After storing, resetting, and switching, the comparator becomes ready for the next comparison. The process repeats for all remaining bits (typically 9 more for a 10-bit ADC).
+
+- Once all bits are resolved, the input sampling phase begins again for the next conversion cycle.
 
 ## 2. Flowchart
 The flowchart is depicted below.
