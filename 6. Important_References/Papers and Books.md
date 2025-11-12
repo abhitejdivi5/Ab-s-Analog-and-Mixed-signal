@@ -2,6 +2,8 @@
 
 
 
-   Gate-Bootstrapped Switch
-- Razavi’s [SSCS articles on Gate-Bootstrapped Switch](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_1_2021.pdf)
+
+
+
+- Razavi’s  Gate-Bootstrapped Switch[SSCS articles on Gate-Bootstrapped Switch](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_1_2021.pdf)
    
