@@ -31,20 +31,22 @@ The schematic shows the integration of:
 
 ## 3. Results  
 
-### Transient Response  
+### a) Transient Response  
 
-![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/d516c81f145fc15fae534168c0ce1013487cfc44/SAR%20out.png)
+![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/resultsar.png)
 
 - **/pi:** Input pulse trigger  
 - **/valid:** Indicates comparator operation and valid decision phases  
-- **/pi1 – /pi10:** Control pulses generated for successive approximation  
+- **/d1 – /d10:** positive d flipflo results(stored Digital Signals)
 
 The simulation confirms that:  
 - The comparator resolves each decision within ~365 ps and precharges in ~100 ps.  
 - This timing allows **10 comparisons to be completed within 9 ns**, enabling reliable 10-bit conversion at 100 MS/s.  
 
----
+### b) Matlab Response
+The digitized signals were imported into MATLAB for reconstruction analysis. The reconstructed signal, shown in the figure, achieved an ENOB of 10 bits and an SQNR of 61.8 dB.
 
+![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/resultsar2.png)
 ## 4. Summary  
 
 The designed **10-bit SAR ADC** demonstrates high-speed **TSMC 180 nm CMOS**, achieving:  
