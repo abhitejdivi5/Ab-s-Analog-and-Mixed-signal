@@ -1,6 +1,6 @@
 ---
 
-### 📘 [Razavi Textbook](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/Design-of-Analog-CMOS-Integrated-Circuit-2nd-Edition-ElectroVoltir_.pdf)
+### Razavi Textbook(https://github.com/abhitejdivi5/Analog-Blocks/blob/main/Design-of-Analog-CMOS-Integrated-Circuit-2nd-Edition-ElectroVoltir_.pdf)
 
 ---
 
