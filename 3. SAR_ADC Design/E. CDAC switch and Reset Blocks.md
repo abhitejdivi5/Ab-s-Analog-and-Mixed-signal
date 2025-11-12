@@ -10,6 +10,7 @@
 ## • Reset Block
 - The **reset block** discharges the comparator make-ready latch for next comparison and DAC nodes after each bit decision, ensuring the next comparison starts from a defined initial condition.  
 - The valid signal (output of the comparator) and sampling signals are used as an input because, during these moments, the comparator is not in use and needs to be reset.
+  
 ![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/reset.png)
 
 
