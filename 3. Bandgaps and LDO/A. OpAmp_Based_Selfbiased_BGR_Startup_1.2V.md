@@ -1,5 +1,5 @@
 
-# Op-Amp Based Self-Biased Bandgap Reference with Startup Circuit
+# Op-Amp Based Self-Biased Bandgap Reference with Startup Circuit 
 
 With Regards Abhitej Divi ;)
 
