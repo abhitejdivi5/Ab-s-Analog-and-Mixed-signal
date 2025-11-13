@@ -20,7 +20,7 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 
 
 ## 3. Helpful notes
-- Design the [two-stage opamp](../1.%20Amplifiers/A.%20) and [5T ota](../1.%20Amplifiers/A.%20)  .
+- Design the [two-stage opamp](https://github.com/abhitejdivi5/Ab-s-Analog-and-Mixed-signal/blob/main/1.%20Amplifiers/B.%20Two_Stage_Fully_Diif_CM.md)) and [5T ota](https://github.com/abhitejdivi5/Ab-s-Analog-and-Mixed-signal/blob/main/1.%20Amplifiers/C.%20Lessmismatch_PMOS_5T_OTA.md)  .
 - We can use the same compensation methods as those applied in a two-stage op-amp, or the following techniques.
 - Common-Mode Input Range and Output Swing (Based on Schematic)
 
