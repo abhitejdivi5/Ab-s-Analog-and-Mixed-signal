@@ -3,7 +3,7 @@
 
 With Regards Abhitej Divi,
 
-This project involves designing a fully differential two-stage operational amplifier (with a first-stage differential [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md) and a second-stage common-source amplifier) that incorporates common-mode feedback. The design uses a Miller compensation capacitor for pole splitting and a right-half-plane (RHP) zero-canceling resistor for enhanced stability. It targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1 pF and 2 pF capacitive loads.
+This project involves designing a fully differential two-stage operational amplifier (with a first-stage differential [5T OTA]([../1.%20Amplifiers/D.%20NMOS_5T_OTA.md](https://github.com/abhitejdivi5/Ab-s-Analog-and-Mixed-signal/blob/main/1.%20Amplifiers/C.%20Lessmismatch_PMOS_5T_OTA.md)) and a second-stage common-source amplifier) that incorporates common-mode feedback. The design uses a Miller compensation capacitor for pole splitting and a right-half-plane (RHP) zero-canceling resistor for enhanced stability. It targets approximately 70 dB gain, a 60° phase margin, and stable operation above 150 MHz for both 1 pF and 2 pF capacitive loads.
 
 ## 1. Design Requirement: 
 
@@ -17,9 +17,9 @@ E) Gain Bandwidth Product (GBW) > 150MHz
 ![Opamp schematic](https://github.com/abhitejdivi5/Analog-Blocks/blob/4e4b052f3b0c668dcb9d2615c14acd97f50d47b5/opamp_5t_diff.png)
 
 ## 3. Helpful Design Notes
-- Design the first stage using [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md).
-- Use [Helpful Diode Connected](../1.%20Amplifiers/E.%20Helpful_Diod_Connected.md) for transistor sizing. and change the connections as needed.
-- After designing the [5T OTA](../1.%20Amplifiers/D.%20NMOS_5T_OTA.md), size the remaining transistors using the phase‑margin and compensation formulas given below. 
+- Design the first stage using [5T OTA](https://github.com/abhitejdivi5/Ab-s-Analog-and-Mixed-signal/blob/main/1.%20Amplifiers/C.%20Lessmismatch_PMOS_5T_OTA.md).
+- Use [Helpful Diode Connected](https://github.com/abhitejdivi5/Ab-s-Analog-and-Mixed-signal/blob/main/1.%20Amplifiers/E.%20Imp_Diod_Connected.md) for transistor sizing. and change the connections as needed.
+- After designing the [5T OTA], size the remaining transistors using the phase‑margin and compensation formulas given below. 
 - Gain (A) = (Gm₁ x Gm₂)/(G₁ x G₂)
 - Common-Mode Input Range and Output Swing (Based on Schematic)
 
