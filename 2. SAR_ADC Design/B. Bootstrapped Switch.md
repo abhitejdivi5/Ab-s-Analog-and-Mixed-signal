@@ -3,7 +3,7 @@
 With Regards,  
 **Abhitej Divi**
 
-This project involves designing a **Bootstrapped Switch** for sampling and holding the input signal. The circuit utilizes a charge pump, enabling the output to reliably hold the sampled signal during the comparison phase in later steps. The switch is designed to operate with a **5 pF load capacitor**, suitable for sampling into a **10-bit capacitor DAC**.   
+This project involves designing a **Bootstrapped Switch** for sampling and holding the input signal. The switch is designed to operate with a **5 pF load capacitor**, suitable for sampling into a **10-bit capacitor DAC**.   
 
 ---
 
