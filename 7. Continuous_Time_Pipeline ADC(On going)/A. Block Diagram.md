@@ -1,4 +1,4 @@
-## Continuous Time Pipeline ADC(On going work)
+## Continuous Time Pipeline ADC (Ongoing work)
 ![Pad Layout](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/pipe.drawio.png)  
 
 
