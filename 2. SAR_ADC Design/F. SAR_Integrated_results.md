@@ -46,7 +46,7 @@ The simulation confirms that:
 ### b) Matlab Response
 The digitized signals were imported into MATLAB for reconstruction analysis. The reconstructed signal, shown in the figure, achieved an ENOB of 10 bits and an SQNR of 61.8 dB.
 
-![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/resultsar2.png)
+![SAR ADC Output](https://github.com/abhitejdivi5/Analog-Blocks/blob/main/recon.png)
 ## 4. Summary  
 
 The designed **10-bit SAR ADC** demonstrates high-speed **TSMC 180 nm CMOS**, achieving:  
