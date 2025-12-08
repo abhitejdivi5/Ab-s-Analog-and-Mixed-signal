@@ -9,7 +9,7 @@ This project involves designing a fully differential two-stage operational ampli
 
 A) Technology: TSMC 180nm process \
 B) Supply Voltage (V<sub>dd</sub>) = 1.8 V \
-C) Voltage gain (A<sub>v</sub>) = 95dB \
+C) Voltage gain (A<sub>v</sub>) = 99dB \
 D) Load Capacitor (C<sub>L</sub>) = 1pF and 2pF \
 E) Gain Bandwidth Product (GBW) > 150MHz 
 
